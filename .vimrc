@@ -9,17 +9,14 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'rust-lang/rust.vim'
 
-Plugin 'tpope/vim-fugitive'
-
-Plugin 'git://git.wincent.com/command-t.git'
-
-Plugin 'rstacruz/sparkup' , {'rtp' : 'vim/'}
-
 Plugin 'Townk/vim-autoclose'
 
 Plugin 'fatih/vim-go'
 
 Plugin 'lervag/vimtex'
+
+Plugin 'w0rp/ale'
+Plugin 'uber/prototool', {'rtp':'vim/prototool'}
 
 call vundle#end()
 
@@ -34,3 +31,5 @@ endfunction
 
 set clipboard=unnamed
 set hlsearch
+set cursorline
+set directory=.
