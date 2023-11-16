@@ -11,8 +11,6 @@ Plugin 'rust-lang/rust.vim'
 
 Plugin 'Townk/vim-autoclose'
 
-Plugin 'fatih/vim-go'
-
 Plugin 'lervag/vimtex'
 
 Plugin 'w0rp/ale'
@@ -30,8 +28,10 @@ function! FormatJSON()
 endfunction
 
 set tabstop=2
+set expandtab
 set shiftwidth=2
 set clipboard=unnamed
 set hlsearch
 set cursorline
 set directory=.
+set re=2
